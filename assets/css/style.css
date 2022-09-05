@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.header-container {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(/assets/images/foto.png.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 112px;
+    position: relative;
+}
+
+h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+h2 {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.redes-sociais {
+    margin-top: 1rem;
+    display: flex;
+}
+
+.redes-sociais a {
+    text-decoration: none; 
+    color: #1E1E2A;
+    padding: 1rem 4rem;
+    border: 1px solid #1E1E2A;
+    min-width: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .5s ease-in-out;
+}
+
+a:hover{
+    background-color: #ffff;
+}
