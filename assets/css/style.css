@@ -197,6 +197,10 @@ a:hover{
 
 }
 
+.container a {
+    text-decoration: none;
+}
+
 .card-container{
     display: flex;
     justify-content: space-evenly;
@@ -263,6 +267,8 @@ a:hover{
     transition: 0.5s ease-in-out;
 
 }
+
+
 
 .card-text {
     width: 40%;
