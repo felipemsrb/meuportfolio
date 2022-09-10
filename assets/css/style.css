@@ -7,7 +7,7 @@ body {
 .header-container {
     height: 100vh;
     width: 100vw;
-    background-color: lightgreen;
+    background-color: #191970;
     background-image: url(/assets/images/foto.png.jpg);
     background-repeat: no-repeat;
     background-position: right;
@@ -25,11 +25,13 @@ h1 {
     font-size: 50px;
     text-transform: uppercase;
     letter-spacing: 4px;
+    color: #daa520;
 }
 
 h2 {
     text-transform: uppercase;
     letter-spacing: 4px;
+    color: #daa520;
 }
 
 .redes-sociais {
@@ -39,9 +41,9 @@ h2 {
 
 .redes-sociais a {
     text-decoration: none; 
-    color: #1E1E2A;
+    color: #daa520;
     padding: 1rem 4rem;
-    border: 1px solid #1E1E2A;
+    border: 1px solid #daa520;
     min-width: 4rem;
     display: flex;
     align-items: center;
