@@ -1,0 +1,50 @@
+.header-container {
+    height: 100vh;
+    width: 100vw;
+    background-color: #191970;
+    background-image: url(/assets/images/foto.png.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 112px;
+    position: relative;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #daa520;
+}
+
+h2 {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #daa520;
+}
+
+.redes-sociais {
+    margin-top: 1rem;
+    display: flex;
+}
+
+.redes-sociais a {
+    text-decoration: none; 
+    color: #daa520;
+    padding: 1rem 4rem;
+    border: 1px solid #daa520;
+    min-width: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .5s ease-in-out;
+}
+
+a:hover{
+    background-color: #ffff;
+}
