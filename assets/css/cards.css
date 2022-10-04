@@ -79,6 +79,26 @@
 
 }
 
+.card.robotron{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    margin: 3rem 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgreen;
+    background-image: url(/assets/images/robo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(0.5);
+    color: #1E1E2A;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+
+}
+
 .card.em-breve{
     width: 300px;
     height: 300px;
